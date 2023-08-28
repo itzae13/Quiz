@@ -1,5 +1,5 @@
 #2. Escriba un programa que almacene personas (input), luego que le muestre 
-#por pantalla el mensaje de ‘Su nombre es ‘nombre’
+#por pantalla el mensaje de ‘Su nombre es ‘nombre’.
 
 personas=[]
 
