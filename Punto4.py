@@ -1,11 +1,17 @@
 #4. En una tupla coloque o ingrese (input) los siguientes valores: números enteros, 
 #decimales, String, colecciones. Luego muestre en consola que tipo de datos o variable son los valores digitados.
 
-valor1 = input("Ingrese el primer dato a evaluar: ")
-valor2 = input("Ingrese el segundo dato a evaluar: ")
-valor3 = input("Ingrese el tercer dato a evaluar: ")
-valor4 = [1, 2, 3]
-variables = [valor1, valor2, valor3, valor4]
+print("Bienvenido, en primer lugar ingrese los datos individuales y luego los datos que se ubican en la colección!")
+primero = input("Ingrese el primer dato a evaluar: ")
+segundo = input("Ingrese el segundo dato a evaluar: ")
+tercero = input("Ingrese el tercer dato a evaluar: ")
+cuarto=[]
+cuartoenunciado = input("Ingrese los datos de la coleccion, entre datos irá un espacio: ")
+cuarto.append(cuartoenunciado)
+
+
+
+variables = [primero, segundo, tercero, cuarto]
 
 tupla = tuple(variables)
 
